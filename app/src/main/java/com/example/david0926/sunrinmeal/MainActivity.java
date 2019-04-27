@@ -3,11 +3,13 @@ package com.example.david0926.sunrinmeal;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.AsyncTask;
+import android.support.v4.app.DialogFragment;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -23,8 +25,6 @@ import java.io.IOException;
 
 public class MainActivity extends AppCompatActivity {
 
-    //커밋 테스트
-    //커밋 테스트 2
 
     LinearLayout idcardmenu, mealmenu;
     String date[] = new String[3], day[] = new String[3], meal[] = new String[3];
@@ -123,5 +123,24 @@ public class MainActivity extends AppCompatActivity {
         inflater.inflate(R.menu.menu_share, menu);
         inflater.inflate(R.menu.menu_more, menu);
         return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int id = item.getItemId();
+
+        if (id == R.id.menu_share) {
+            Intent intent = new Intent(android.content.Intent.ACTION_SEND);
+            intent.setType("text/plain");
+            intent.putExtra(Intent.EXTRA_TEXT, getString(R.string.share));
+            Intent shareIntent = Intent.createChooser(intent, "공유하기");
+            startActivity(shareIntent);
+        }
+        if (id == R.id.action_devinfo) {
+//            DialogFragment dialogFragment = new Dialog_User();
+//            dialogFragment.show(getSupportFragmentManager(), "dialog_user");
+        }
+
+        return super.onOptionsItemSelected(item);
     }
 }

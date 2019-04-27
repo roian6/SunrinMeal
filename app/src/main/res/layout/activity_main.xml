@@ -291,8 +291,8 @@
                             android:layout_height="wrap_content"
                             android:orientation="vertical"
                             android:paddingBottom="8dp"
-                            android:paddingEnd="16dp"
-                            android:paddingStart="16dp"
+                            android:paddingEnd="22dp"
+                            android:paddingStart="22dp"
                             android:paddingTop="22dp">
 
 
@@ -301,8 +301,8 @@
                                 android:layout_height="wrap_content"
                                 android:background="@drawable/review_text"
                                 android:orientation="vertical"
-                                android:layout_marginBottom="12dp"
-                                android:padding="12dp">
+                                android:layout_marginBottom="16dp"
+                                android:padding="16dp">
 
                                 <TextView
                                     android:layout_width="wrap_content"
@@ -352,7 +352,7 @@
                                 android:layout_height="wrap_content"
                                 android:background="@drawable/review_text"
                                 android:orientation="vertical"
-                                android:padding="12dp">
+                                android:padding="16dp">
 
                                 <TextView
                                     android:layout_width="wrap_content"

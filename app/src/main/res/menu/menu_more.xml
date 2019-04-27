@@ -1,9 +1,14 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:id="@+id/menu_share"
+        android:id="@+id/menu_more"
         android:title=""
         app:showAsAction="always"
-        android:icon="@drawable/ic_outline_more_vert"
-        />
+        android:icon="@drawable/ic_outline_more_vert">
+        <item
+            android:id="@+id/action_devinfo"
+            android:orderInCategory="100"
+            android:title="개발자 정보"
+            />
+    </item>
 </menu>

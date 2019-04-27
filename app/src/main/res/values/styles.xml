@@ -11,11 +11,17 @@
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
+        <item name="android:ratingBarStyle">@style/RatingBar</item>
+        <item name="android:actionOverflowButtonStyle">@style/MyActionButtonOverFlow</item>
     </style>
 
-    <style name="RatingBar" parent="Theme.AppCompat">
+    <style name="RatingBar" parent="AppTheme.NoActionBar">
         <item name="colorControlNormal">@android:color/darker_gray</item>
         <item name="colorControlActivated">#f1c40f</item>
+    </style>
+    
+    <style name="MyActionButtonOverFlow" parent="android:style/Widget.Holo.Light.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_outline_more_vert</item>
     </style>
 
 </resources>
