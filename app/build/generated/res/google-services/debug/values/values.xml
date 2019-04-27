@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">729902881562-p1k88krpj3lcs3ci2lp93em114banuke.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://sunrinmeal.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">729902881562</string>
+    <string name="google_api_key" translatable="false">AIzaSyCFN3VY18bB7eR8RHAXAX2W3oA1CTtie4U</string>
+    <string name="google_app_id" translatable="false">1:729902881562:android:5ddd3e8c562f5830</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCFN3VY18bB7eR8RHAXAX2W3oA1CTtie4U</string>
+    <string name="google_storage_bucket" translatable="false">sunrinmeal.appspot.com</string>
+    <string name="project_id" translatable="false">sunrinmeal</string>
+</resources>

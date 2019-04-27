@@ -1,0 +1,4 @@
+#Sat Apr 27 16:42:22 KST 2019
+base.0=D\:\\Android_Projects\\SunrinMeal\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\10
+path.0=classes.dex
+renamed.0=classes.dex
