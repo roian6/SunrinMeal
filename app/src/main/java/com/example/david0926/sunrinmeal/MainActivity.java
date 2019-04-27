@@ -24,6 +24,7 @@ import java.io.IOException;
 public class MainActivity extends AppCompatActivity {
 
     //커밋 테스트
+    //커밋 테스트 2
 
     LinearLayout idcardmenu, mealmenu;
     String date[] = new String[3], day[] = new String[3], meal[] = new String[3];
