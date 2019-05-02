@@ -8,7 +8,7 @@
 
 ## 구동 원리
 
-`Jsoup` 라이브러리를 이용해 학교 홈페이지에서 파싱하였습니다. 끝입니다!
+`Jsoup` 라이브러리를 이용해 학교 홈페이지에서 파싱하였습니다.
 
 ## 스크린샷
 
@@ -18,4 +18,5 @@
 
 ### 0.0.1 (2019/5/12)
 https://drive.google.com/file/d/1jraOifkgq9fugHBPjs8qUaZFkYP7cEpE/view?usp=sharing
+
 임시 배포 버전입니다. 일부 기능이 동작하지 않을 수 있습니다.
