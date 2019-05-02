@@ -1,5 +1,6 @@
 package com.example.david0926.sunrinmeal;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.AsyncTask;
@@ -38,15 +39,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
         Toolbar toolbar = findViewById(R.id.toolbar);
         toolbar.setBackgroundColor(Color.TRANSPARENT);
         toolbar.setTitleTextColor(Color.BLACK);
         toolbar.setTitle("");
         setSupportActionBar(toolbar);
-
-
-
 
         main_date = findViewById(R.id.txt_main_date);
         main_day = findViewById(R.id.txt_main_day);
@@ -83,6 +80,25 @@ public class MainActivity extends AppCompatActivity {
                 }
                 main_date.setText(date[0]+" 오늘의 급식");
                 main_day.setText(day[0]);
+                switch(day[0]){
+                    case "월":
+                        main_day.setTextColor(Color.parseColor("#f48fb1"));
+                        break;
+                    case "화":
+                        main_day.setTextColor(Color.parseColor("#ffab91"));
+                        break;
+                    case "수":
+                        main_day.setTextColor(Color.parseColor("#a5d6a7"));
+                        break;
+                    case "목":
+                        main_day.setTextColor(Color.parseColor("#81d4fa"));
+                        break;
+                    case "금":
+                        main_day.setTextColor(Color.parseColor("#b39ddb"));
+                        break;
+                    default:
+                        main_day.setTextColor(Color.parseColor("#000000"));
+                }
                 main_meal.setText(meal[0]);
             }
         }.execute();
@@ -137,8 +153,8 @@ public class MainActivity extends AppCompatActivity {
             startActivity(shareIntent);
         }
         if (id == R.id.action_devinfo) {
-//            DialogFragment dialogFragment = new Dialog_User();
-//            dialogFragment.show(getSupportFragmentManager(), "dialog_user");
+            DialogFragment dialogFragment = new Dialog_DevInfo();
+            dialogFragment.show(getSupportFragmentManager(), "dialog_devinfo");
         }
 
         return super.onOptionsItemSelected(item);

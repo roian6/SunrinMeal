@@ -1,5 +1,6 @@
 package com.example.david0926.sunrinmeal.Meal;
 
+import android.graphics.Color;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -34,7 +35,27 @@ public class RecycleAdapter_Meal extends RecyclerView.Adapter<RecycleHolder_Meal
     @Override
     public void onBindViewHolder(@NonNull RecycleHolder_Meal holder, int position) {
         RecycleModel_Meal item = items.get(position);
-        holder.date.setText(item.getDate()+" ("+item.getDay()+")");
+        holder.date.setText(item.getDate());
+        holder.day.setText(item.getDay());
+        switch(item.getDay()){
+            case "월":
+                holder.day.setTextColor(Color.parseColor("#f48fb1"));
+                break;
+            case "화":
+                holder.day.setTextColor(Color.parseColor("#ffab91"));
+                break;
+            case "수":
+                holder.day.setTextColor(Color.parseColor("#a5d6a7"));
+                break;
+            case "목":
+                holder.day.setTextColor(Color.parseColor("#81d4fa"));
+                break;
+            case "금":
+                holder.day.setTextColor(Color.parseColor("#b39ddb"));
+                break;
+            default:
+                holder.day.setTextColor(Color.parseColor("#000000"));
+        }
         holder.menu.setText(item.getMenu());
     }
 

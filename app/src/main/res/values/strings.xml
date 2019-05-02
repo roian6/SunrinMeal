@@ -2,4 +2,6 @@
     <string name="app_name">선린급식</string>
     <string name="share">충격) 선린 급식을 알려주는 앱이 있다?!
         (https://github.com/roian6/SunrinMeal)</string>
+    <string name="dialog_devinfo">A/S 문의: 10423 정찬효
+    \n\n피크닉은 개발자에게 큰 힘이 됩니다. \n후원: 하나 24791027950007</string>
 </resources>
