@@ -12,7 +12,7 @@
 
 ## 스크린샷
 
-아직 없습니다.
+![meal](./SunrinMeal.jpg) 
 
 ## APK
 
