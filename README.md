@@ -14,8 +14,8 @@
 
 아직 없습니다.
 
-##APK
+## APK
 
-###0.0.1 (2019/5/12)
+### 0.0.1 (2019/5/12)
 https://drive.google.com/file/d/1jraOifkgq9fugHBPjs8qUaZFkYP7cEpE/view?usp=sharing
 임시 배포 버전입니다. 일부 기능이 동작하지 않을 수 있습니다.
