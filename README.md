@@ -1,7 +1,8 @@
 # SunrinMeal
 충격) 선린 급식을 알려주는 앱이 있다?!
-
 (다운로드: https://drive.google.com/open?id=1Sk4KaEdqvViKxgm9y7HRiCJxoH5C5kKS)
+
+선린급식과 함께라면, 급식 메뉴를 확인하고 누구보다 빠르게 매점으로 달려갈 수 있습니다!
 
 ## How to use
 
@@ -10,7 +11,7 @@
 
 ## 구동 원리
 
-`Jsoup` 라이브러리를 이용해 학교 홈페이지에서 파싱하였습니다.
+`Jsoup` 라이브러리를 이용해 급식 정보를 학교 홈페이지에서 파싱했습니다.
 
 ## 스크린샷
 
