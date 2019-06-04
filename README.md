@@ -1,6 +1,8 @@
 # SunrinMeal
 충격) 선린 급식을 알려주는 앱이 있다?!
 
+(다운로드: https://drive.google.com/open?id=1Sk4KaEdqvViKxgm9y7HRiCJxoH5C5kKS)
+
 ## How to use
 
 1. 아래 링크에서 최신 버전의 APK를 다운로드합니다. (Google Drive)
