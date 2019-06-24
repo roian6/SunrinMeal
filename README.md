@@ -20,7 +20,12 @@
 
 ## APK
 
-### 0.0.2 (2019/6/1, 최신)
+### 0.0.3 (2019/6/24, 최신)
+https://drive.google.com/open?id=1MNjjaythHWuxAsgS92SS0qvWUO3FetvV
+
+실시간 리뷰 기능 추가!
+
+### 0.0.2 (2019/6/1)
 https://drive.google.com/open?id=1Sk4KaEdqvViKxgm9y7HRiCJxoH5C5kKS
 
 앱 아이콘 추가, 리뷰 기능 추가(미완성)
