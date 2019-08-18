@@ -3,7 +3,6 @@
 
 (다운로드: https://drive.google.com/open?id=1MNjjaythHWuxAsgS92SS0qvWUO3FetvV)
 
-선린급식과 함께라면, 급식 메뉴를 확인하고 누구보다 빠르게 매점으로 달려갈 수 있습니다!
 
 ## How to use
 
